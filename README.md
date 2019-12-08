@@ -10,3 +10,14 @@ Weather Station with Raspberry Pi
       'git clone https://github.com/RaspberryPiFoundation/weather-station'
 ### The BME280 Python library
       'sudo pip3 install RPi.bme280'
+## BME280:
+      The BME280 sensor is a digital sensor that can measure temperature, humidity, and atmospheric pressure. It is
+      available in a number of breakout boards from popular manufacturers such as Adafruit. One thing to check is 
+      that the I2C address is correct: for the Adafruit models it is 0x77 (as shown in the code below), but other 
+      versions can have different addresses (0x76 is a common alternative).
+###   Pi GPIO	BME280
+      17 (3V3)	Vin  
+      6 (Gnd)	Gnd  
+      3 (SDA)	SDA (SDI)  
+      5 (SCL)	SCL (SCK)  
+      Some other breakout boards may have other pins (such as SDO or CSB), but those are not generally needed.
