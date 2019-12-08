@@ -22,9 +22,9 @@ Weather Station with Raspberry Pi
       5 (SCL)	SCL (SCK)  
       Some other breakout boards may have other pins (such as SDO or CSB), but those are not generally needed.
 ## How to run:
-### Clone the GitHub repository by opening a Terminal window and typing:
+### 1、Clone the GitHub repository by opening a Terminal window and typing:
       'git clone https://github.com/xiaolinyang927/iot.git'
-### Run rpi_spreadsheet.py
-### Go to the google sheet:
+### 2、Run rpi_spreadsheet.py
+### 3、Go to the google sheet:
       https://docs.google.com/spreadsheets/u/0/
-### Open the rpidata to see the data
+### 4、Open the rpidata to see the data
