@@ -21,3 +21,6 @@ Weather Station with Raspberry Pi
       3 (SDA)	SDA (SDI)  
       5 (SCL)	SCL (SCK)  
       Some other breakout boards may have other pins (such as SDO or CSB), but those are not generally needed.
+## How to run:
+### Clone the GitHub repository by opening a Terminal window and typing:
+      
