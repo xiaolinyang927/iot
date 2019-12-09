@@ -39,7 +39,7 @@ while True:
     print('Temperature in C: ' +str(tmp))
     try:
         worksheet.append_row((str(dat), cpu, tmp, bme280.temperature, bme280.humidity, bme280.pressure))
-#        worksheet.append_row((dat, cpu, tmp))
+#        worksheet.append_row((dat, cpu, tmp, bme280.temperature, bme280.humidity, bme280.pressure))
 # gspread==0.6.2
 # https://github.com/burnash/gspread/issues/511
     except:
