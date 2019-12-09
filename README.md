@@ -1,8 +1,8 @@
-# iot
+# IoT
 Weather Station with Raspberry Pi
 ## Introduction:
       Use BME280 sensor to measure the tmeperature, humidity and pressure. Then send the data to the Google Sheet.
-## hardware:
+## Hardware:
       A Raspberry Pi 3B+
       A BME280 pressure, temperature, and humidity sensor
 ## Software:
