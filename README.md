@@ -28,3 +28,7 @@ Weather Station with Raspberry Pi
 ### 3、Go to the google sheet:
       https://docs.google.com/spreadsheets/u/0/
 ### 4、Open the rpidata to see the data
+
+![Image text](https://raw.githubusercontent.com/xiaolinyang927/iot/master/1.jpg)
+
+![Image text](https://raw.githubusercontent.com/xiaolinyang927/iot/master/2.png)
